@@ -41,7 +41,7 @@ const Navigations =() =>{
         {Link: "Insights", path: "Insights"},
         {Link: "Careers", path: "Carrers"},
        
-        {Link: "Testimonial", path: "Testimonial"},
+        {Link: "Blog", path: "blog"},
         {Link: "Contact", path: "Contact_us"},
 
     ];
