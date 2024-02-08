@@ -7,10 +7,10 @@ import Services from './Components/Services';
 import Products from './Components/Products';
 import About from './Components/About';
 import Blog from './Components/Blog';
-//import Navbar from './Components/Navbar';
+
 //import Insights from './Components/Insights';
 //import Careers from './Components/Careers';
-//import Testimonial from './Components/Testimonial';
+
 import News from './Components/Newsletter';
 import Contact from './Components/Contact_Us';
 import MyFooter from './Components/MyFooter';
