@@ -68,11 +68,11 @@ icon: (
 {/* company logos */}
 
     return(
-        <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
+        <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="service">
            
             {/* service cards */}
             <div className="mt-20 md:w-1/2 mx-auto text-center">
-            {/*<h2 className="text-3xl text-neutralDGrey font-semibold mb-2">Empowering Business Evolution through Tailored Technology Solutions</h2>*/}
+       
             <h2 className="text-3xl text-neutralDGrey font-semibold mb-2">Elevating Businesses with Custom Software Solutions</h2>
                 <p className="text-neutralGrey">.</p>
                 <p>As a leading software company, we specialize in crafting tailored solutions to propel businesses 
@@ -104,7 +104,7 @@ icon: (
 
             {/*<div className="text-center my-20">
                 
-                
+                import company from '../assets/company1.jpg';
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">Our Clients</h2>
                 <p className="text-neutralGrey">We offer the best services you can imagine.We simply your business operations seemlessly</p>
             
