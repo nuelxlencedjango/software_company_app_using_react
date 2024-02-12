@@ -10,6 +10,7 @@ const truncateText = (text, limit) => {
   };
  
   
+  
 const Products = () =>{
     const blogs =[
         {id:1, 
@@ -169,8 +170,6 @@ const Products = () =>{
                 }
             </div>
             </div>
-
-        
     )
 }
 

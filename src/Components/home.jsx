@@ -13,7 +13,6 @@ import Newsletter from './Newsletter';
 
 const Home = () =>{
 return(
- 
     <div className='bg-neutralSliver' id='home'>
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen navbar-container' style={{ paddingTop: '100px' }}>
         
@@ -74,8 +73,7 @@ return(
      <Blog />
      <Newsletter />
 
-    </div>
-    
+    </div>   
 )
 }
 
