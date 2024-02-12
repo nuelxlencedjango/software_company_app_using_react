@@ -3,7 +3,8 @@ import { Carousel } from 'flowbite-react';
 import company from '../assets/hero-img.png';
 import computer from '../assets/about-1.jpg';
 import money from '../assets/telcom.webp';
-import Products from './Products';
+
+import Products from './Products';   
 import Services from './Services';
 import About from './About';
 import Blog from './Blog';
@@ -40,7 +41,11 @@ return(
           <div className='md:w-1/2'>
             <h1 className='text-2xl md:text-3xl mb-3 text-neutralDGrey md:w-3/4 leading-snug car-h1'>We make business 
             <span className='text-[red] leading-snug'> processes seamless! </span></h1>
-            <p className='text-neutralGrey text-base mb-5'>Experience the power of digital transformation with Raddotech. From streamlining operations to enhancing customer experiences, our solutions empower businesses to thrive in today's dynamic landscape. Discover how our expertise and innovation can propel your organization towards success. Transform your business with Raddotech.</p>
+            <p className='text-neutralGrey text-base mb-5'>Experience the power of digital transformation with Raddotech. 
+            From streamlining operations to enhancing customer experiences, our 
+            solutions empower businesses to thrive in today's dynamic landscape. Discover 
+            how our expertise and innovation can propel your organization towards success. 
+            Transform your business with Raddotech.</p>
             <button className='btn-primary'>Reach out to us</button>
           </div>
         </div>
@@ -52,14 +57,18 @@ return(
           <div className='md:w-1/2'>
             <h1 className='text-2xl md:text-3xl mb-3 text-neutralDGrey md:w-3/4 leading-snug car-h1'>Bring your ideas <br />
             <span className='text-[red] leading-snug'> To life with just a call away</span></h1>
-            <p className='text-neutralGrey text-base mb-5'>Forge stronger connections and foster collaboration with Raddotech's collaborative tools and platforms. Whether it's internal communication or engaging with customers, we provide seamless solutions that bring people together. Enhance teamwork, boost productivity, and unlock new possibilities with our suite of collaboration solutions.</p>
+            <p className='text-neutralGrey text-base mb-5'>Forge stronger connections and foster collaboration with Raddotech's
+             collaborative tools and platforms. Whether it's internal communication or 
+             engaging with customers, we provide seamless solutions that bring people 
+             together. Enhance teamwork, boost productivity, and unlock new possibilities 
+             with our suite of collaboration solutions.</p>
             <button className='btn-primary'>Contact us today</button>
           </div>
         </div>
       </Carousel>
 
         </div>
-     <Products /> 
+     <Products />   
      <Services />
      <About />
      <Blog />

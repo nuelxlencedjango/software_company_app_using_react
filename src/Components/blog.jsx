@@ -14,10 +14,10 @@ const Blog = () =>{
                     </div>
                     <div className="md:w-/5 mx-auto">
                         <h2 className="text-4x1 text-neutralDGrey font-semibold mb-4 md:w-4/5">
-                            The unseen of spending three years at raddotech
+                            The unseen of three years at raddotech
                         </h2>
                         <p className="md:w-4/4 text-sm text-neutralGrey mb-8">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, optio. Totam aspernatur, veritatis cum nihil ipsum pariatur sunt rerum maxime enim officia suscipit corporis ad repudiandae eius quod ut nisi. Officiis, aliquam provident suscipit non laboriosam molestiae qui ea? Ad nesciunt amet ipsam dignissimos numquam enim officia consequuntur aperiam aliquid?
+                            Lorem ipsum  sit amet consectetur adipisicing elit. Dolorum, optio. Totam aspernatur, veritatis cum nihil ipsum pariatur sunt rerum maxime enim officia suscipit corporis ad repudiandae eius quod ut nisi. Officiis, aliquam provident suscipit non laboriosam molestiae qui ea? Ad nesciunt amet ipsam dignissimos numquam enim officia consequuntur aperiam aliquid?
                         </p>
                         <button className="btn-primary">Learn More</button>
                     </div>
@@ -38,8 +38,7 @@ const Blog = () =>{
                                  <p className="md:w-5/5 text-md text-neutralGrey mb-8 leading-7">Lorem ipsum dolor sit amet, consectetur adipisicing 
                                     elit. Eaque earum modi et? Perferendis, earum 
                                     incidunt! Odit consequatur, autem corporis 
-                                    voluptatibus incidunt consectetur consequuntur 
-                                    officiis iste rem? Veniam beatae consequuntur 
+                            
                                     provident iusto magnam, animi sed illo laboriosam 
                                     ipsum, earum alias sit dicta modi in architecto 
                                     explicabo adipisci! Alias veniam debitis soluta.</p>
