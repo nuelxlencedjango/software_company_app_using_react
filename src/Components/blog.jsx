@@ -3,7 +3,7 @@ import mobile from '../assets/mobile3.jpg';
 import mob3 from '../assets/mobile2.jpg';
 
 
-const Blog = () =>{
+const Blogs = () =>{
     return(
         <div>
             {/* about us text */}
@@ -78,4 +78,4 @@ const Blog = () =>{
     )
 }
 
-export default Blog;
+export default Blogs;
