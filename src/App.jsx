@@ -4,7 +4,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Components/Home';
 import Services from './Components/Services';
-import Products from './Components/Products';
+//import Products from './Components/Products';
 import About from './Components/About';
 import Blog from './Components/Blog';
 
@@ -27,7 +27,7 @@ const App = () => {
      
       <Route path='/' element={<Home />}></Route>
       <Route path='/services' element={<Services />}></Route>
-      <Route path='/products' element={<Products />}></Route>
+      {/*<Route path='/products' element={<Products />}></Route>*/}
       <Route path='/about' element={<About />}></Route>
       <Route path='/blog' element={<Blog />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
