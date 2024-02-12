@@ -14,6 +14,9 @@ import Blog from './Components/Blog';
 import News from './Components/Newsletter';
 import Contact from './Components/Contact_Us';
 import MyFooter from './Components/MyFooter';
+import Productss from './Components/Productss';
+import Blogg from './Components/Blogss';
+import Homes from './Components/Homes';
 
 import Navs from './Components/Navbar';
 
@@ -22,7 +25,7 @@ const App = () => {
   
    <BrowserRouter>
     <Navs />
-   
+     
       <Routes>
      
       <Route path='/' element={<Home />}></Route>
