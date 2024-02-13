@@ -4,10 +4,10 @@ import company from '../assets/hero-img.png';
 import computer from '../assets/about-1.jpg';
 import money from '../assets/telcom.webp';
 
-import Products from './Products';   
+import Product from './Product';   
 import Services from './Services';
 import About from './About';
-import Blog from './Blog';
+import Blogs from './Blogs';
 import Newsletter from './Newsletter';
 
 
@@ -67,10 +67,10 @@ return(
       </Carousel>
 
         </div>
-     <Products />   
+     <Product />   
      <Services />
      <About />
-     <Blog />
+     <Blogs />
      <Newsletter />
 
     </div>   

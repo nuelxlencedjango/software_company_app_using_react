@@ -2,15 +2,11 @@ import React from 'react';
 import "./App.css";
 
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './Components/Home';
-import Services from './Components/Services';
-import Products from './Components/Products';
-import About from './Components/About';
-import Blog from './Components/Blog';
-
-import Product from './Components/Product';
 import Homes from './Components/Homes';
-import BlogS from './Components/Blogs';
+import Services from './Components/Services';
+import Product from './Components/Product';
+import About from './Components/About';
+import Blogs from './Components/Blogs';
 
 //import Insights from './Components/Insights';
 //import Careers from './Components/Careers';
@@ -28,11 +24,11 @@ const App = () => {
      
       <Routes>
      
-      <Route path='/' element={<Home />}></Route>
+      <Route path='/' element={<Homes />}></Route>
       <Route path='/services' element={<Services />}></Route>
-      <Route path='/products' element={<Products />}></Route>
+      <Route path='/products' element={<Product />}></Route>
       <Route path='/about' element={<About />}></Route>
-      <Route path='/blog' element={<Blog />}></Route>
+      <Route path='/blog' element={<Blogs />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
       <Route path='/newsletter' element={<News />}></Route>
   
