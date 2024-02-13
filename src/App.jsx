@@ -8,6 +8,10 @@ import Products from './Components/Products';
 import About from './Components/About';
 import Blog from './Components/Blog';
 
+import Product from './Components/Product';
+import Homes from './Components/Homes';
+import BlogS from './Components/Blogs';
+
 //import Insights from './Components/Insights';
 //import Careers from './Components/Careers';
 
