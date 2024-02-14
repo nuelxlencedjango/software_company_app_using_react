@@ -115,9 +115,6 @@ const Products = () =>{
                 {
                     blogs.map( blog => <div key={blog.id} className="mx-auto relative mb-12 cursor-pointer hover:scale-95 translate-all duration-300">
 
-                       
-                       
-
                         <img src={blog.image} alt=""/>
                          <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12">
                          <div>
@@ -174,4 +171,3 @@ const Products = () =>{
 }
 
 export default Products;
-
