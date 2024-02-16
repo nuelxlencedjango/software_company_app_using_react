@@ -7,7 +7,7 @@ import graphic from '../assets/graphic2.avif';
 import hospital from '../assets/hospital3.avif';
 import bank from '../assets/bank1.avif';
 import accounting from '../assets/account2.avif';
-import mobile3 from '../assets/school5.png';
+import school from '../assets/school5.png';
 import data from '../assets/data1.avif';
 
 
@@ -97,7 +97,8 @@ const Products = () =>{
         
         title: "Banking Apps",
         text: 'At RaddoTech, we redefine the landscape of Web Application Development with our innovative solutions crafted to propel businesses to new heights. Our expertise lies in building and maintaining dynamic web-based applications, tailored with precision to serve a myriad of purposes.',
-        image: bank},  
+        image: bank},
+
         {id:9, 
         icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
@@ -114,7 +115,7 @@ const Products = () =>{
                 
            
         text: "Recognizing the unique needs of each educational institution, RaddoTech’s School Management System is fully customizable. Tailor the system to fit your specific workflows, grading systems, and reporting structures. Our goal is to provide a solution that aligns perfectly with your school's operational model.",
-        image: mobile3}                     
+        image: school}                     
     ];
     return (
         <div className="px-4 lg:px-14 py-5 max-w-screen-2x1 mx-auto my-12" id="products">
