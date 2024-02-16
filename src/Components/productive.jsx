@@ -1,17 +1,4 @@
 import React from "react";
-import web1 from '../assets/web1.gif';
-import mobileApp from '../assets/mobileApp1.avif';
-import ecommerce from '../assets/ecommerce.png';
-import hr from '../assets/hr_management.png';
-import graphic from '../assets/graphic2.avif';
-import hospital from '../assets/hospital3.avif';
-import bank from '../assets/bank1.avif';
-import accounting from '../assets/account2.avif';
-import mobile3 from '../assets/school5.png';
-import data from '../assets/data1.avif';
-
-
-
 
 
 const truncateText = (text, limit) => {
@@ -33,18 +20,7 @@ const Products = () =>{
               </svg>),
               
         text:   'At RaddoTech, we breathe purpose into every line of code, every meticulously crafted solution',
-         image: web1},
-        
-         {id:3, 
-            icon: (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"/>
-          </svg>
-          ),   
-             title: "E-commerce Apps",
-             text: 'Our e-commerce apps are crafted to elevate your brand, engage customers, and drive unparalleled success in the competitive world of online retail.',
-           
-             image:  ecommerce
-            }, 
+         image: "/src/assets/company1.jpg"},
 
         {id:2, 
         icon: (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
@@ -53,60 +29,61 @@ const Products = () =>{
       ),  
         title:  "Mobile Apps",
         text:   "At RaddoTech, we don't just create mobile applications; we engineer immersive digital experiences that resonate with your audience. Our mobile apps are a testament to innovation, functionality, and a commitment to delivering solutions that go beyond expectations.",
-         image: mobileApp}, 
+         image:"/src/assets/company2.jpg"}, 
 
-        {id:4, 
-            title: "Data Management",    
-            icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M8 3c0-.6.4-1 1-1h6c.6 0 1 .4 1 1h2a2 2 0 0 1 2 2v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h2Zm6 1h-4v2H9a1 1 0 0 0 0 2h6a1 1 0 1 0 0-2h-1V4Zm-6 8c0-.6.4-1 1-1h6a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1Zm1 3a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H9Z"/>   
-          </svg>
-          ),
-           text: "Our system is not just a tool; it's a strategic asset empowering businesses to manage their most valuable resource—people—with precision and innovation.",
-           image: data},
+        {id:3, 
+        icon: (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"/>
+      </svg>
+      ),   
+         title: "E-commerce Apps",
+         text: 'Our e-commerce apps are crafted to elevate your brand, engage customers, and drive unparalleled success in the competitive world of online retail.',
+       
+         image:  "/src/assets/company3.jpg"},
 
-         {id:5, 
+         {id:4, 
          title: "HR Management System",    
          icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
                </svg>),
         text: "Our system is not just a tool; it's a strategic asset empowering businesses to manage their most valuable resource—people—with precision and innovation.",
-        image: hr},
+        image: "/src/assets/company4.jpg"},
 
-        {id:6, 
+        {id:5, 
          icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 10.5v6m3-3H9m4.06-7.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
                    </svg>),
     
         title: "Graphic Designs",
         text: 'captivating design is the key to making a lasting impressionC',
-        image: graphic},  
+        image: "/src/assets/company4.jpg"},  
 
-        {id:7, 
+        {id:6, 
             icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 10.5v6m3-3H9m4.06-7.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
                       </svg>),
        
            title: "Hospital Management System",
            text: 'Streamline processes, enhance patient care, and gain valuable insights for informed decision-making. Join us in shaping the future of healthcare management—where precision meets compassion.',
-           image: hospital},    
+           image: "/src/assets/company4.jpg"},    
 
-        {id:8, 
+        {id:7, 
         icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                        </svg>),
         
         title: "Banking Apps",
         text: 'At RaddoTech, we redefine the landscape of Web Application Development with our innovative solutions crafted to propel businesses to new heights. Our expertise lies in building and maintaining dynamic web-based applications, tailored with precision to serve a myriad of purposes.',
-        image: bank},  
-        {id:9, 
+        image: "/src/assets/company4.jpg"},  
+        {id:8, 
         icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
                            </svg>),
             
         title: "Accounting System",
         text: "Welcome to RaddoTech's Accounting System—a comprehensive solution designed to elevate your financial management to new heights.",
-        image: accounting},
-        {id:10, 
+        image: "/src/assets/company4.jpg"},
+        {id:9, 
         title: "School Manager",    
         icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
@@ -114,51 +91,83 @@ const Products = () =>{
                 
            
         text: "Recognizing the unique needs of each educational institution, RaddoTech’s School Management System is fully customizable. Tailor the system to fit your specific workflows, grading systems, and reporting structures. Our goal is to provide a solution that aligns perfectly with your school's operational model.",
-        image: mobile3}                     
+        image: "/src/assets/company4.jpg"}                     
     ];
-    return (
-        <div className="px-4 lg:px-14 py-5 max-w-screen-2x1 mx-auto my-12" id="products">
-            <div className="text-center md:w-2/2 mx-auto">
-                <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5">
-                    We make Exceptional Software Products <span>like</span>
-                </h2>
-                <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto">
-                    Transform your business with our exceptional products. 
-                    Elevate and expand your operations using our comprehensive software suite, 
-                    meticulously crafted to seamlessly manage every aspect of your enterprise. 
-                    Leveraging our profound technical expertise and industry knowledge, we engineer 
-                    forward-looking solutions to empower your business in achieving its strategic 
-                    objectives.
-                </p>
-            </div>
+    return(
+       <div className="px-4 lg:px-14 py-20 max-w-screen-2x1 mx-auto my-12" id="products">
+        <div className="text-center md:w-2/2 mx-auto">
+            <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5">
+            We make Exceptional Software Products <span>like</span>
+                        </h2>
+                          <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto">
+                          Transform your business with our exceptional products. 
+                          Elevate and expand your operations using our comprehensive software suite, 
+                          meticulously crafted to seamlessly manage every aspect of your enterprise. 
+                          Leveraging our profound technical expertise and industry knowledge, we engineer 
+                          forward-looking solutions to empower your business in achieving its strategic 
+                          objectives.
 
-            {/* Blog posts */}
+                        </p>
+            </div>
+            {/* blog posts */}
+            
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between">
-                {blogs.map(blog => (
-                    <div key={blog.id} className="relative mb-12 cursor-pointer hover:scale-95 translate-all duration-300">
-                        <div className="bg-cover bg-center h-72 rounded-lg overflow-hidden" style={{ backgroundImage: `url(${blog.image})` }}></div>
-                        <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12">
-                            <div className="bg-[red] mb-0 h-10 w-10 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full">  
-                                <i>{blog.icon}</i>
-                            </div>
+                {
+                    blogs.map( blog => <div key={blog.id} className="mx-auto relative mb-12 cursor-pointer hover:scale-95 translate-all duration-300">
+
+                        <img src={blog.image} alt=""/>
+                         <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12">
+                         <div>
+                        <div className='bg-[red] mb-0 h-10 w-10 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full'>  
+                            <i>{blog.icon}</i>
+                        </div>
+                       
+                        </div>
                             <h3 className="mb-3 text-neutralGrey font-bold">{blog.title}</h3>
                             <p className="mb-2 text-neutralGrey font-16">{truncateText(blog.text, 10)}</p>
+                           
                             <div className="flex items-center justify-center gap-8">
-                                <a href="/" className="font-bold text-brandPrimary hover:text-neutral-700">
-                                    Read more
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 17 11"
-                                         fill="none" className="inline-block ml-2">
-                                        <path d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.39905M15 5.39905L1 5.39905"
-                                              stroke="#4CAF4F" />
-                                    </svg>
+                             <a href="/" className="font-bold text-brandPrimary hover:text-neutral-700">
+                                Readmore
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 17 11"
+                                fill="none" className="inline-block ml-2">
+                                <path d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.39905M15 5.39905L1 5.39905"
+                                stroke="#4CAF4F" />
+                                </svg>
                                 </a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                ))}
+                        
+                    </div>)
+                }
+            
+                
             </div>
-        </div>
-    );
-};
+             {/* blog posts */}
+             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between py-12">
+                {
+                    blogs.map( blog => <div key={blog.id} className="mx-auto relative mb-6 cursor-pointer hover:scale-95 translate-all duration-300">
+                        <img src={blog.image} alt="" />
+                         <div className="">
+                            <h3>{blog.title}</h3>
+                            <div className="flex items-center gap-8">
+                             <a href="/" className="font-bold text-brandPrimary hover:text-neutral-700">
+                                Readmore
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 17 11"
+                                fill="none" className="inline-block ml-2">
+                                <path d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.39905M15 5.39905L1 5.39905"
+                                stroke="#4CAF4F" />
+                                </svg>
+                                </a>
+                                </div>
+                            </div>
+                        
+                </div>)
+                    
+                }
+            </div>
+            </div>
+    )
+}
 
 export default Products;
