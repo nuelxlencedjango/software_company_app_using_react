@@ -118,7 +118,7 @@ const Products = () =>{
         image: school}                     
     ];
     return (
-        <div className="px-4 lg:px-14 py-5 max-w-screen-2x1 mx-auto my-12" id="products">
+        <div className="px-4 lg:px-14 py-[150px] lg:py-[200px] max-w-screen-2x1 mx-auto" id="products">
             <div className="text-center md:w-2/2 mx-auto">
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5">
                     We make Exceptional Software Products <span>like</span>
