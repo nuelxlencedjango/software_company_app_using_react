@@ -118,7 +118,9 @@ const Products = () =>{
         image: school}                     
     ];
     return (
-        <div className="px-4 lg:px-14 py-[150px] lg:py-[200px] max-w-screen-2x1 mx-auto" id="products">
+       
+        <div className="px-4 lg:px-14 py-[80px] lg:py-[120px] max-w-screen-2x1 mx-auto" id="products">
+    
             <div className="text-center md:w-2/2 mx-auto">
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5">
                     We make Exceptional Software Products <span>like</span>
@@ -145,7 +147,7 @@ const Products = () =>{
                             <h3 className="mb-3 text-neutralGrey font-bold">{blog.title}</h3>
                             <p className="mb-2 text-neutralGrey font-16">{truncateText(blog.text, 10)}</p>
                             <div className="flex items-center justify-center gap-8">
-                                <a href="/" className="font-bold text-brandPrimary hover:text-neutral-700">
+                                <a href="/" className="font-bold text-[red] hover:text-neutral-700">
                                     Read more
                                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 17 11"
                                          fill="none" className="inline-block ml-2">

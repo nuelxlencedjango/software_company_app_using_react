@@ -68,7 +68,8 @@ icon: (
 {/* company logos */}
 
     return(
-        <div className="md:px-14 px-4 py-5 max-w-screen-2xl mx-auto" id="service">
+      <div className="md:px-10 px-4 py-3 max-w-screen-2xl mx-auto" id="service">
+
            
             {/* service cards */}
             <div className="mt-20 md:w-1/2 mx-auto text-center">
