@@ -3,7 +3,7 @@ import React from "react";
 const Contact_Us = () => {
   return (
     <div>
-      <h1 className="text-4xl py-8 font-bold text-center mb-8">Reach Out To Us Today!</h1>
+      <h1 className="text-4xl reach-out font-bold text-center mb-8">Reach Out To Us Today!</h1>
       <div className="mx-4 flex py-10 flex-col md:flex-row justify-center items-start">
         {/* Address Section */}
         <div className="bg-[#cf2e2e] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-blue-300 cursor-pointer h-72 flex justify-center items-center">
