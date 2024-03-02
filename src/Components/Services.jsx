@@ -68,13 +68,13 @@ icon: (
 {/* company logos */}
 
     return(
-      <div className="md:px-10 px-4 py-3 max-w-screen-2xl mx-auto" id="service">
+      <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto" id="service">
 
            
             {/* service cards */}
-            <div className="mt-20 md:w-1/2 mx-auto text-center">
+            <div className="mt-20 md:w-3/4 mx-auto text-center">
        
-            <h2 className="text-3xl text-neutralDGrey font-semibold mb-2">Elevating Businesses with Custom Software Solutions</h2>
+            <h2 className="text-3xl text-neutralDGrey font-semibold mb-2">Our Services</h2>
                 <p className="text-neutralGrey">.</p>
                 <p>As a leading software company, we specialize in crafting tailored solutions to propel businesses 
                     forward. Our multi-competency approach, combined with a focus on enterprise 
@@ -91,7 +91,7 @@ icon: (
                     mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all
                     duration-300 flex items-center justify-center h-full"> 
                     <div>
-                        <div className='bg-brandPrimary mb-4 h-14 w-14 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full'>  
+                        <div className='bg-[red] mb-4 h-14 w-14 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full'>  
                             <i>{service.icon}</i>
                         </div>
                         <h4 className="text-2x1 font-bold text-neutralDGrey mb-2 px-2">{service.title}</h4>

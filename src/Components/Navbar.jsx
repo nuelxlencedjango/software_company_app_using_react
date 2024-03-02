@@ -36,10 +36,7 @@ const Navbar = () => {
         {link: "Products", path:"/products"},
         {link: "Services", path:"/services"},
         {link: "About", path:"/about"},
-       
-      
-        {link: "Blog", path:"/blog"},
-        {link: "Newsletter", path:"/newsletter"},
+        {link: "Career", path:"/career"},
         {link: "Contact", path:"/contact_us"},
     ]
 
@@ -60,6 +57,7 @@ const Navbar = () => {
                    )
                 }
                 </ul>
+
                 {/* btn for large devices */}
                 <div className="space-x-12 hidden lg:flex items-center">
                     {/*<a href="/" className="hidden lg:flex items-center text-brandPrimary hover:text-gray-900">Get In Touch</a>*/}

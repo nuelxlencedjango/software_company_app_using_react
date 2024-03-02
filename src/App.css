@@ -67,3 +67,75 @@ header{
  margin-top: 10px;
  color: red;
 }
+
+
+
+
+
+
+
+/* styles.css */
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature {
+  flex: 1 1 100%;
+  margin-bottom: 40px;
+  padding: 20px;
+  /*background-color: #f9f9f9;*/
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .feature {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  font-size: 24px;
+  
+  margin-bottom: 5px !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+  
+}
+
+h3 {
+  font-size: 18px;
+  color: #ff4444; 
+  margin: 5px !important;
+  font-weight: 700 !important;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+
+
+
+
+

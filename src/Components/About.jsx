@@ -1,14 +1,18 @@
 import React from "react";
 import abt from '../assets/informationT3.jpeg';
 import why_us from '../assets/informationT2.jpeg';
+import { useLocation } from 'react-router-dom';
 
 const About =() => {
+
+  const location = useLocation();
+  
   return (
     <div>
       {/* About us text */}
       <div className="px-4 lg:px-14 py-10 md:py-20 max-w-screen-2x1 mx-auto my-8 bg-neutralSilver" id="about">
         <div className="flex justify-center items-center h-full">
-          <h2 className="text-4xl text-neutralDGrey font-semibold md:w-4/5 py-5 md:py-14">Welcome to Raddotech</h2>
+          <h2 className="text-4xl text-neutralDGrey font-semibold md:w-4/5 py-5 md:py-14 welcom">Welcome to Raddotech</h2>
         </div>
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="md:w-1/2 mx-auto">

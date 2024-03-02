@@ -1,5 +1,5 @@
 import React from "react";
-import web1 from '../assets/web1.gif';
+{/*import web1 from '../assets/web1.gif';
 import mobileApp from '../assets/mobileApp1.avif';
 import ecommerce from '../assets/ecommerce.png';
 import hr from '../assets/hr_management.png';
@@ -8,7 +8,7 @@ import hospital from '../assets/hospital3.avif';
 import bank from '../assets/bank1.avif';
 import accounting from '../assets/account2.avif';
 import school from '../assets/school5.png';
-import data from '../assets/data1.avif';
+import data from '../assets/data1.avif';*/}
 
 
 
@@ -33,7 +33,7 @@ const Products = () =>{
               </svg>),
               
         text:   'At RaddoTech, we breathe purpose into every line of code, every meticulously crafted solution',
-         image: web1},
+         },
         
          {id:3, 
             icon: (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
@@ -43,7 +43,7 @@ const Products = () =>{
              title: "E-commerce Apps",
              text: 'Our e-commerce apps are crafted to elevate your brand, engage customers, and drive unparalleled success in the competitive world of online retail.',
            
-             image:  ecommerce
+        
             }, 
 
         {id:2, 
@@ -53,7 +53,7 @@ const Products = () =>{
       ),  
         title:  "Mobile Apps",
         text:   "At RaddoTech, we don't just create mobile applications; we engineer immersive digital experiences that resonate with your audience. Our mobile apps are a testament to innovation, functionality, and a commitment to delivering solutions that go beyond expectations.",
-         image: mobileApp}, 
+         }, 
 
         {id:4, 
             title: "Data Management",    
@@ -62,7 +62,7 @@ const Products = () =>{
           </svg>
           ),
            text: "Our system is not just a tool; it's a strategic asset empowering businesses to manage their most valuable resource—people—with precision and innovation.",
-           image: data},
+           },
 
          {id:5, 
          title: "HR Management System",    
@@ -70,7 +70,7 @@ const Products = () =>{
                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
                </svg>),
         text: "Our system is not just a tool; it's a strategic asset empowering businesses to manage their most valuable resource—people—with precision and innovation.",
-        image: hr},
+       },
 
         {id:6, 
          icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
@@ -79,7 +79,7 @@ const Products = () =>{
     
         title: "Graphic Designs",
         text: 'captivating design is the key to making a lasting impressionC',
-        image: graphic},  
+        },  
 
         {id:7, 
             icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
@@ -88,16 +88,16 @@ const Products = () =>{
        
            title: "Hospital Management System",
            text: 'Streamline processes, enhance patient care, and gain valuable insights for informed decision-making. Join us in shaping the future of healthcare management—where precision meets compassion.',
-           image: hospital},    
+           },    
 
         {id:8, 
         icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                        </svg>),
         
-        title: "Banking Apps",
+        title: "Financial System",
         text: 'At RaddoTech, we redefine the landscape of Web Application Development with our innovative solutions crafted to propel businesses to new heights. Our expertise lies in building and maintaining dynamic web-based applications, tailored with precision to serve a myriad of purposes.',
-        image: bank},
+        },
 
         {id:9, 
         icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
@@ -106,7 +106,7 @@ const Products = () =>{
             
         title: "Accounting System",
         text: "Welcome to RaddoTech's Accounting System—a comprehensive solution designed to elevate your financial management to new heights.",
-        image: accounting},
+        },
         {id:10, 
         title: "School Manager",    
         icon:  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
@@ -115,7 +115,7 @@ const Products = () =>{
                 
            
         text: "Recognizing the unique needs of each educational institution, RaddoTech’s School Management System is fully customizable. Tailor the system to fit your specific workflows, grading systems, and reporting structures. Our goal is to provide a solution that aligns perfectly with your school's operational model.",
-        image: school}                     
+        }                     
     ];
     return (
        
