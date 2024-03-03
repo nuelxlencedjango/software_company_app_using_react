@@ -93,7 +93,7 @@ return(
       <div className="features-container">
         <div className="feature">
           <h2 className="text-[#263238]">EXPERIENCE</h2>
-          <h3>REAL-WORLD EXPERIENCE FIRST-HAND KNOWLEDGE</h3>
+          <h3 className="text-center">REAL-WORLD EXPERIENCE FIRST-HAND KNOWLEDGE</h3>
          <p>With every project engagement, our proficient consultants apply industry-leading practices and knowledge 
           gained through years of experience in corporate software development. Notably, our leadership team and 
           consultants possess extensive backgrounds, primarily within the realm of software engineering and 
@@ -101,7 +101,7 @@ return(
         </div>
         <div className="feature">
           <h2>FLEXIBILITY</h2>
-          <h3>SCALABILITY MEETS FLEXIBILITY</h3>
+          <h3  className="text-center">SCALABILITY MEETS FLEXIBILITY</h3>
           <p>Tailored Services: As a privately-owned firm imbued with a robust entrepreneurial ethos, we possess the 
             capacity to tackle intricate, enterprise-scale projects while remaining agile enough to adapt to your 
             unique needs. This affords us the flexibility required to collaborate with clients in innovative and 
@@ -109,14 +109,14 @@ return(
         </div>
         <div className="feature">
           <h2 className="text-[#263238]">EXCEPTIONAL VALUE</h2>
-          <h3>EXCEPTIONAL SERVICES AT AN EXCEPTIONAL VALUE</h3>
+          <h3 className="text-center">EXCEPTIONAL SERVICES AT AN EXCEPTIONAL VALUE</h3>
           <p>Doing more with less is essential in today's economic landscape. Our company's size, expertise, 
             and strategic approach empower us to deliver exceptional value to clients without compromising on the 
             quality of service.</p>
         </div>
         <div className="feature">
           <h2>RESULTS</h2>
-          <h3>RESULTS YOUR BUSINESS NEEDS</h3>
+          <h3 className="text-center">RESULTS YOUR BUSINESS NEEDS</h3>
          <p>Our proven track record and results-driven approach ensure that we deliver the outcomes essential for 
           your business. We address your most critical technological and business challenges by merging our 
           established project management proficiency with expertise and a steadfast work ethic.</p>
