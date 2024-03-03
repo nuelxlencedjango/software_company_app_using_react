@@ -67,7 +67,7 @@ icon: (
     <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto my-5 lg:my-10">
       {/* service cards */}
       <div className="mt-20 md:w-3/4 mx-auto text-center">
-        <h1 className="text-4xl text-[#263238] font-medium">Frameworks, Tools and Applications</h1>
+        <h1 className="text-3xl lg:text-3xl text-[#263238] font-medium">Frameworks, Tools and Applications</h1>
       </div>
 
       {/* cards */}

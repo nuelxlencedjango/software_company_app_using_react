@@ -177,7 +177,7 @@ const Services = () => {
     >
       {/* service cards */}
       <div className="mt-20 md:w-3/4 mx-auto text-center">
-        <h1 className="text-4xl text-[#263238] font-medium">Our Services</h1>
+        <h1 className="text-3xl lg:text-3xl text-[#263238] font-medium">Our Services</h1>
         <p className="text-neutralGrey">.</p>
         <p>
           As a leading software company, we specialize in crafting tailored
