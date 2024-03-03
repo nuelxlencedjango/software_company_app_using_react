@@ -91,7 +91,7 @@ icon: (
                     mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all
                     duration-300 flex items-center justify-center h-full"> 
                     <div>
-                        <div className='bg-[red] mb-4 h-14 w-14 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full'>  
+                        <div className='bg-[red] mb-4 h-14 w-14 mx-auto rounded-full text-center p-10 flex justify-center items-center'>  
                             <i>{service.icon}</i>
                         </div>
                         <h4 className="text-2x1 font-bold text-neutralDGrey mb-2 px-2">{service.title}</h4>
