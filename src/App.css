@@ -69,12 +69,6 @@ header{
  color: red;
 }
 
-
-
-
-
-
-
 /* styles.css */
 
 .app {
@@ -92,12 +86,12 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
 }
 
 .feature {
   flex: 1 1 100%;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   padding: 20px;
   /*background-color: #f9f9f9;*/
   border-radius: 8px;

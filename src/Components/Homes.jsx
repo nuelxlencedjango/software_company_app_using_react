@@ -87,7 +87,7 @@ return(
         </div>
         <div className="app">
       <div className="header-container">
-        <h1 className="text-4xl text-[#263238]">Reasons to Choose Us</h1>
+        <h1 className="text-4xl text-[#263238] font-medium">Reasons to Choose Us</h1>
       </div>
 
       <div className="features-container">
