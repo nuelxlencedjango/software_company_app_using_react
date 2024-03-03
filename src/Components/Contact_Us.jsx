@@ -3,7 +3,9 @@ import React from "react";
 const Contact_Us = () => {
   return (
     <div>
-      <h1 className="text-4xl reach-out font-bold text-center mb-8">Reach Out To Us Today!</h1>
+      <h1 className="text-4xl reach-out font-bold text-center mb-8">
+        Reach Out To Us Today!
+      </h1>
       <div className="mx-4 flex py-10 flex-col md:flex-row justify-center items-start">
         {/* Address Section */}
         <div className="bg-[#cf2e2e] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-blue-300 cursor-pointer h-72 flex justify-center items-center">
@@ -25,33 +27,63 @@ const Contact_Us = () => {
         </div>
 
         {/* Emails and Messages Section[#E5E7EB] */}
-        <div className="bg-yellow-300 py-4 md:py-6 h-full w-full md:w-1/3 mb-8 mx-2 hover:bg-[#E5E7EB] flex flex-col justify-between">
+        <div className="bg-yellow-300 py-10 px-3 h-full w-full md:w-1/3 mb-8 mx-2 flex flex-col justify-between contact-form">
           <div className="text-center">
-            <h2 className="text-2xl text-white font-semibold mb-4">Emails and Messages</h2>
-            <p className="text-white">Email: info@example.com</p>
-            <p className="text-white">Send us a message:</p>
+            <h2 className="text-2xl text-white font-semibold mb-4">
+              Contact Us
+            </h2>
+            <p className="text-white">We'll get back to you within 24hrs</p>
+          </div>
             <form className="w-full max-w-md mx-auto mt-4">
               <div className="flex flex-col">
                 <div className="mb-4">
-                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">Your Name</label>
-                  <input className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Full name" />
+                  {/* <label
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="name"
+                  >
+                    Your Name
+                  </label> */}
+                  <input
+                    className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="name"
+                    type="text"
+                    placeholder="Your Full name"
+                  />
                 </div>
                 <div className="mb-4">
-                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">Your Email</label>
-                  <input className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email Address" />
+                  {/* <label
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="email"
+                  >
+                    Your Email
+                  </label> */}
+                  <input
+                    className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="email"
+                    type="email"
+                    placeholder="Email Address"
+                  />
                 </div>
                 <div className="mb-4">
-                  <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">Message</label>
-                  <textarea className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-20 resize-none" id="message" placeholder="Your message here..."></textarea>
+                  {/* <label
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="message"
+                  >
+                    Message
+                  </label> */}
+                  <textarea
+                    className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-20 resize-none"
+                    id="message"
+                    placeholder="Your message here..."
+                  ></textarea>
                 </div>
               </div>
+              <div className="text-center mb-4">
+                <button className="bg-[red] hover:bg-[#000] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                  Send Message
+                </button>
+              </div>
             </form>
-          </div>
-          <div className="text-center mb-4">
-            <button className="bg-[red] hover:bg-[#000] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-              Send Message
-            </button>
-          </div>
         </div>
       </div>
     </div>
