@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const truncateText = (text, limit) => {
     const words = text.split(' ');
@@ -74,9 +76,9 @@ icon: (
             {/* service cards */}
             <div className="mt-20 md:w-3/4 mx-auto text-center">
        
-            <h2 className="text-3xl text-neutralDGrey font-semibold mb-2">Our Services</h2>
+            <h2 className="text-3xl text-neutralDGrey font-semibold mb-2" data-aos="fade-up">Our Services</h2>
                 <p className="text-neutralGrey">.</p>
-                <p>As a leading software company, we specialize in crafting tailored solutions to propel businesses 
+                <p data-aos="fade-up">As a leading software company, we specialize in crafting tailored solutions to propel businesses 
                     forward. Our multi-competency approach, combined with a focus on enterprise 
                     transformation and technology consulting, allows us to seamlessly integrate 
                     expertise across various industries and business functions. 
@@ -89,7 +91,7 @@ icon: (
                 {
                     services.map(service => <div key={service.id} className="px-4 py-8 text-center md:w-[300px]
                     mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all
-                    duration-300 flex items-center justify-center h-full"> 
+                    duration-300 flex items-center justify-center h-full" data-aos="fade-up"> 
                     <div>
                         <div className='bg-[red] mb-4 h-14 w-14 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full'>  
                             <i>{service.icon}</i>

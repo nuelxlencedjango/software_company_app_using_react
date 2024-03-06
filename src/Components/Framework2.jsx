@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 const truncateText = (text, limit) => {
   const words = text.split(' ');
   if (words.length > limit) {
@@ -64,14 +68,14 @@ icon: (
   ];
 
   return (
-    <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto">
+    <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto" data-aos="fade-up">
       {/* service cards */}
       <div className="mt-20 md:w-3/4 mx-auto text-center">
         <h2 className="text-3xl text-neutralDGrey font-semibold mb-2">Frameworks,Tools And Applications </h2>
            </div>
 
       {/* cards */}
-      <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
+      <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12" data-aos="fade-up">
         {services.map(service => (
           <div key={service.id} className="relative px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md 
           shadow cursor-pointer transform transition-all duration-300 hover:shadow-lg hover:scale-105 bg-white 
