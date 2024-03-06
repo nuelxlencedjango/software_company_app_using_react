@@ -68,30 +68,38 @@ icon: (
   ];
 
   return (
+<<<<<<< HEAD
     <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto" data-aos="fade-up">
+=======
+    <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto my-5 lg:my-10">
+>>>>>>> f548218b323f109bb26f0daae915acd5fe6a1d9e
       {/* service cards */}
       <div className="mt-20 md:w-3/4 mx-auto text-center">
-        <h2 className="text-3xl text-neutralDGrey font-semibold mb-2">Frameworks,Tools And Applications </h2>
-           </div>
+        <h1 className="text-3xl lg:text-3xl text-[#263238] font-medium">Frameworks, Tools and Applications</h1>
+      </div>
 
       {/* cards */}
+<<<<<<< HEAD
       <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12" data-aos="fade-up">
+=======
+      <div className="mt-14 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 md:w-11/12 mx-auto gap-12">
+>>>>>>> f548218b323f109bb26f0daae915acd5fe6a1d9e
         {services.map(service => (
-          <div key={service.id} className="relative px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md 
+          <div key={service.id} className="relative px-4 py-8 text-center w-full md:w-[300px] mx-auto rounded-md 
           shadow cursor-pointer transform transition-all duration-300 hover:shadow-lg hover:scale-105 bg-white 
-          hover:bg-red-600">
+          hover:bg-red-600 text-neutralDGrey hover:text-white">
 
             <div className='flex justify-center mb-4'>
-              <div className='bg-red-600 h-8 w-8 rounded-full'>
-                {service.icon}
+              <div className='bg-red-600 h-14 w-14 rounded-full p-10 flex justify-center items-center border-2 border-white'>
+                <i>{service.icon}</i>
               </div>
             </div>
             
-            <h4 className="text-1xl font-bold text-neutralDGrey mb-2 px-2">{service.title}</h4>
+            <h4 className="text-1xl font-bold mb-2 px-2">{service.title}</h4>
             
-            <div className="absolute inset-x-0 bottom-0 mb-4">
+            {/* <div className="absolute inset-x-0 bottom-0 mb-4">
               <Link to={`/service/${service.id}`} className="text-white hover:underline">Click to know more</Link>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
