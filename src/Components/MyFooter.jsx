@@ -1,5 +1,6 @@
 import React from "react";
 import { Footer } from "flowbite-react";
+
 import {
   BsDribbble,
   BsFacebook,
@@ -21,24 +22,25 @@ const MyFooter = () => {
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  iOS
+                920 W Villa Maria Rd
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Android
+                Bryan, TX 77807
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Windows
+                +1 (214) 862-2086
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  MacOS
+                raddotech.@gmail.com
                 </a>
               </li>
+
             </ul>
           </div>
           <div className="">
@@ -48,44 +50,44 @@ const MyFooter = () => {
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-4">
                 <a href="#" className=" hover:underline">
-                  About
+                Software Products Development
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Careers
+                Product Designs
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Brand Center
+                Data Engineering & AI Solution
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Blog
+                Graphic Designs
                 </a>
               </li>
             </ul>
           </div>
           <div className="">
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              About Us
+            Quick Links
             </h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Discord Server
+                Products
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Twitter
+                Services
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Facebook
+                Corporate Responsibility
                 </a>
               </li>
               <li className="mb-4">
@@ -102,19 +104,25 @@ const MyFooter = () => {
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Privacy Policy
+                +1 (214) 862-2086
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Licensing
+                  raddotech.@gmail.com
                 </a>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Terms &amp; Conditions
+                  Twitter
                 </a>
               </li>
+              <li className="mb-4">
+                <a href="#" className="hover:underline">
+                  Facebook
+                </a>
+              </li>
+         
             </ul>
           </div>
          

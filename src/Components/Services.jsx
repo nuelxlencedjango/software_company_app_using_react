@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const truncateText = (text, limit) => {
   const words = text.split(" ");
@@ -170,6 +172,36 @@ const Services = () => {
     /* company logos */
   }
 
+<<<<<<< HEAD
+           
+            {/* service cards */}
+            <div className="mt-20 md:w-3/4 mx-auto text-center">
+       
+            <h2 className="text-3xl text-neutralDGrey font-semibold mb-2" data-aos="fade-up">Our Services</h2>
+                <p className="text-neutralGrey">.</p>
+                <p data-aos="fade-up">As a leading software company, we specialize in crafting tailored solutions to propel businesses 
+                    forward. Our multi-competency approach, combined with a focus on enterprise 
+                    transformation and technology consulting, allows us to seamlessly integrate 
+                    expertise across various industries and business functions. 
+                    At Raddotech, we are dedicated to delivering superior value through 
+                    innovative and bespoke software solutions.</p>
+            
+            </div>
+            {/* cards */}
+            <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
+                {
+                    services.map(service => <div key={service.id} className="px-4 py-8 text-center md:w-[300px]
+                    mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all
+                    duration-300 flex items-center justify-center h-full" data-aos="fade-up"> 
+                    <div>
+                        <div className='bg-[red] mb-4 h-14 w-14 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full'>  
+                            <i>{service.icon}</i>
+                        </div>
+                        <h4 className="text-2x1 font-bold text-neutralDGrey mb-2 px-2">{service.title}</h4>
+
+                        <p className="mb-2 text-neutralGrey font-16">{truncateText(service.description,10)}</p>
+                        </div>
+=======
   return (
     <div
       className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto my-5 lg:my-10"
@@ -205,6 +237,7 @@ const Services = () => {
               <h4 className="text-2x1 font-bold text-neutralDGrey mb-2 px-2">
                 {service.title}
               </h4>
+>>>>>>> f548218b323f109bb26f0daae915acd5fe6a1d9e
 
               <p className="mb-2 text-neutralGrey font-16">
                 {truncateText(service.description, 10)}

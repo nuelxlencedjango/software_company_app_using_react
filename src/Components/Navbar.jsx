@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 {/* react icons */}
 import { FaXmark, FaBars } from "react-icons/fa6";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,12 +42,12 @@ const Navbar = () => {
         {link: "Products", path:"/products"},
         {link: "Services", path:"/services"},
         {link: "About", path:"/about"},
-        {link: "Career", path:"/career"},
+        {link: "Career", path:"/careers"},
         {link: "Contact", path:"/contact_us"},
     ]
 
     return(
-       <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0" data-aos="fade-right">
+       <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
         <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300" :""}`}>
             <div className="flex justify-between items-center text-base gap-8">
                 <a href="" className="text-2xl font-semibold flex items-center space-x-3">

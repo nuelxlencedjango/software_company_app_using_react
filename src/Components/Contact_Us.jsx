@@ -1,18 +1,25 @@
 import React from "react";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
+
 const Contact_Us = () => {
   return (
     <div>
-      <h1 className="text-3xl lg:text-3xl text-[#263238] reach-out font-medium text-center mb-2" data-aos="fade-left">Reach Out To Us Today!</h1>
+      <h1 className="text-3xl lg:text-3xl text-[#263238] reach-out font-medium text-center mb-2">Reach Out To Us Today!</h1>
       <div className="mx-4 flex py-10 flex-col md:flex-row justify-center items-start">
+>>>>>>> f548218b323f109bb26f0daae915acd5fe6a1d9e
         {/* Address Section */}
         <div className="bg-[#cf2e2e] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-blue-300 
         cursor-pointer h-72 flex justify-center items-center" data-aos="fade-left">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-4">Address</h2>
-            <p className="text-white">123 Main Street</p>
-            <p className="text-white">City, State ZIP</p>
-            <p className="text-white">Country</p>
+            <p className="text-white">1920 W Villa Maria Rd</p>
+            <p className="text-white">Bryan, TX 77807</p>
+            <p className="text-white">USA</p>
           </div>
         </div>
 

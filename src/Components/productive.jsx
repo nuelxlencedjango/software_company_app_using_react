@@ -1,5 +1,7 @@
 import React from "react";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const truncateText = (text, limit) => {
     const words = text.split(' ');

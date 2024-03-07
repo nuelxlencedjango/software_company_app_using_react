@@ -1,4 +1,7 @@
 import React from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 {/*import web1 from '../assets/web1.gif';
 import mobileApp from '../assets/mobileApp1.avif';
 import ecommerce from '../assets/ecommerce.png';
@@ -125,7 +128,7 @@ const Products = () =>{
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5" data-aos="fade-up">
                     We make Exceptional Software Products <span>like</span>
                 </h2>
-                <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto" data-aos="fade-right" >
+                <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto">
                     Transform your business with our exceptional products. 
                     Elevate and expand your operations using our comprehensive software suite, 
                     meticulously crafted to seamlessly manage every aspect of your enterprise. 
@@ -136,7 +139,7 @@ const Products = () =>{
             </div>
 
             {/* Blog posts */}
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between" data-aos="fade-up">
                 {blogs.map(blog => (
                     <div key={blog.id} className="relative mb-12 cursor-pointer hover:scale-95 translate-all duration-300" data-aos="fade-up">
                         <div className="bg-cover bg-center h-72 rounded-lg overflow-hidden" style={{ backgroundImage: `url(${blog.image})` }}></div>
