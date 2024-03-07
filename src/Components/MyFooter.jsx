@@ -12,7 +12,7 @@ import logo from "../assets/gwyat.jpeg";
 
 const MyFooter = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white dark:bg-gray-900" data-aos="fade-left">
       <div className="">
         <div className="max-w-screen-xl mx-auto grid gap-8 grid-cols-2 px-4 md:px-0 py-6 lg:py-8 md:grid-cols-4 text-center">
         <div className="">

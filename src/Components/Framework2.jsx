@@ -68,11 +68,9 @@ icon: (
   ];
 
   return (
-<<<<<<< HEAD
-    <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto" data-aos="fade-up">
-=======
+
     <div className="md:px-10 px-4 py-2 max-w-screen-2xl mx-auto my-5 lg:my-10">
->>>>>>> f548218b323f109bb26f0daae915acd5fe6a1d9e
+
       {/* service cards */}
       <div className="mt-20 md:w-3/4 mx-auto text-center" data-aos="fade-up">
         <h1 className="text-3xl lg:text-3xl text-[#263238] font-medium">Frameworks, Tools and Applications</h1>
@@ -83,7 +81,7 @@ icon: (
         {services.map(service => (
           <div key={service.id} className="relative px-4 py-8 text-center w-full md:w-[300px] mx-auto rounded-md 
           shadow cursor-pointer transform transition-all duration-300 hover:shadow-lg hover:scale-105 bg-white 
-          hover:bg-red-600 text-neutralDGrey hover:text-white">
+          hover:bg-red-600 text-neutralDGrey hover:text-white" data-aos="fade-up">
 
             <div className='flex justify-center mb-4'>
               <div className='bg-red-600 h-14 w-14 rounded-full p-10 flex justify-center items-center border-2 border-white'>

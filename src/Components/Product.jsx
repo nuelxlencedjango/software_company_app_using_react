@@ -128,7 +128,7 @@ const Products = () =>{
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5" data-aos="fade-up">
                     We make Exceptional Software Products <span>like</span>
                 </h2>
-                <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto">
+                <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto" data-aos="fade-up">
                     Transform your business with our exceptional products. 
                     Elevate and expand your operations using our comprehensive software suite, 
                     meticulously crafted to seamlessly manage every aspect of your enterprise. 

@@ -14,7 +14,7 @@ const About =() => {
         <div className="flex justify-center items-center h-full">
           <h2 className="text-4xl text-neutralDGrey font-semibold md:w-4/5 py-5 md:py-14 welcom" data-aos="fade-up">Welcome to Raddotech</h2>
         </div>
-        <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+        <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12" data-aos="fade-up">
           <div className="md:w-1/2 mx-auto">
             <div className="h-64 md:h-auto overflow-hidden">
               <img src={abt} alt="" className="w-full h-full object-cover" />
@@ -70,7 +70,7 @@ const About =() => {
             testing processes to ensure that our solutions are reliable, secure, and perform optimally.
           </p>
         </div>
-        <div className="md:w-1/2 mx-auto order-1 md:order-2">
+        <div className="md:w-1/2 mx-auto order-1 md:order-2" data-aos="fade-up">
           <img src={why_us} alt="" className="w-full h-auto md:h-full object-cover" />
         </div>
       </div>
