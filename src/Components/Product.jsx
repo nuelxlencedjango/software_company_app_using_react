@@ -122,10 +122,10 @@ const Products = () =>{
         <div className="px-4 lg:px-14 py-[80px] lg:py-[120px] max-w-screen-2x1 mx-auto" id="products">
     
             <div className="text-center md:w-2/2 mx-auto">
-                <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5">
+                <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-5/5" data-aos="fade-up">
                     We make Exceptional Software Products <span>like</span>
                 </h2>
-                <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto">
+                <p className="md:w-5/6 text-sm text-neutralGrey mb-10 mx-auto" data-aos="fade-right" >
                     Transform your business with our exceptional products. 
                     Elevate and expand your operations using our comprehensive software suite, 
                     meticulously crafted to seamlessly manage every aspect of your enterprise. 
@@ -138,7 +138,7 @@ const Products = () =>{
             {/* Blog posts */}
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between">
                 {blogs.map(blog => (
-                    <div key={blog.id} className="relative mb-12 cursor-pointer hover:scale-95 translate-all duration-300">
+                    <div key={blog.id} className="relative mb-12 cursor-pointer hover:scale-95 translate-all duration-300" data-aos="fade-up">
                         <div className="bg-cover bg-center h-72 rounded-lg overflow-hidden" style={{ backgroundImage: `url(${blog.image})` }}></div>
                         <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12">
                             <div className="bg-[red] mb-0 h-10 w-10 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full">  

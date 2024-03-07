@@ -12,7 +12,7 @@ const About =() => {
       {/* About us text */}
       <div className="px-4 lg:px-14 py-10 md:py-20 max-w-screen-2x1 mx-auto my-8 bg-neutralSilver" id="about">
         <div className="flex justify-center items-center h-full">
-          <h2 className="text-4xl text-neutralDGrey font-semibold md:w-4/5 py-5 md:py-14 welcom">Welcome to Raddotech</h2>
+          <h2 className="text-4xl text-neutralDGrey font-semibold md:w-4/5 py-5 md:py-14 welcom" data-aos="fade-up">Welcome to Raddotech</h2>
         </div>
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="md:w-1/2 mx-auto">
@@ -21,14 +21,14 @@ const About =() => {
             </div>
           </div>
           <div className="md:w-1/2 mx-auto">
-            <p className="md:w-4/5 text-neutralGrey mb-8">
+            <p className="md:w-4/5 text-neutralGrey mb-8" data-aos="fade-up">
               At Raddotech, we are passionate about leveraging technology to transform ideas into innovative solutions.
               With years of experience in software development, our team specializes in creating cutting-edge
               applications, robust web services, and efficient data solutions tailored to meet the unique needs of
               our clients.
             </p>
-            <h2 className="text-2xl text-neutralDGrey font-semibold">Our Mission</h2>
-            <p className="md:w-4/5 text-neutralGrey mb-8 py-5">
+            <h2 className="text-2xl text-neutralDGrey font-semibold" data-aos="fade-up">Our Mission</h2>
+            <p className="md:w-4/5 text-neutralGrey mb-8 py-5" data-aos="fade-up">
               Our mission is to empower businesses and individuals by providing them with top-notch software solutions
               that drive growth, enhance efficiency, and streamline operations. We strive to exceed expectations and
               deliver excellence in every project we undertake.
@@ -40,10 +40,10 @@ const About =() => {
 
       {/* Why Choose Raddotech */}
       <div className="px-4 lg:px-20 py-0 max-w-screen-2x1 mx-auto my-0">
-        <div className="flex justify-center items-center h-full">
+        <div className="flex justify-center items-center h-full" data-aos="fade-up">
           <h2 className="text-4xl text-neutralDGrey font-semibold md:w-4/5 py-0">Why Choose Raddotech?</h2>
         </div>
-        <p className="md:w-5/6 text-neutralGrey mb-8 py-5 mb-3">
+        <p className="md:w-5/6 text-neutralGrey mb-8 py-5 mb-3" data-aos="fade-up">
           Whether you're a startup looking to build your first app, a business in need of a comprehensive web solution,
           or an organization seeking to harness the power of data, Raddotech is here to partner with you on your journey
           towards success.
@@ -51,7 +51,8 @@ const About =() => {
       </div>
 
       {/* Innovative Approach */}
-      <div className="px-4 lg:px-14 py-0 max-w-screen-2x1 mx-auto my-8 flex flex-col md:flex-row justify-between items-center gap-12 bg-neutralSilver mb-25" style={{ marginBottom: '100px' }}>
+      <div className="px-4 lg:px-14 py-0 max-w-screen-2x1 mx-auto my-8 flex flex-col md:flex-row 
+      justify-between items-center gap-12 bg-neutralSilver mb-25" style={{ marginBottom: '100px' }} data-aos="fade-up">
         <div className="md:w-1/2 mx-auto order-2 md:order-1">
           <h4 className="text-2xl text-neutralDGrey font-semibold">Innovative Approach</h4>
           <p className="md:w-4/5 text-neutralGrey py-2 mb-">

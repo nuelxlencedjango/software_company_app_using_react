@@ -13,14 +13,18 @@ import Framework from  './Framework2';
 import Contact_Us from './Contact_Us';
 
 
+
+
 const Home = () =>{
+
+
 
 return(
     <div className='bg-neutralSliver' id='home'>
        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen navbar-container' style={{ paddingTop: '50px' }}>
 
        
-        <Carousel className="w-full max-auto">
+        <Carousel className="w-full max-auto" data-aos="fade-up">
           <div className="py-12 flex flex-col md:flex-row items-center justify-between gap-12">
   
             <div className="w-full md:w-1/2">
@@ -86,20 +90,20 @@ return(
 
         </div>
         <div className="app">
-      <div className="header-container">
+      <div className="header-container" data-aos="fade-up">
         <h1 className="text-4xl text-[#263238] font-medium">Reasons to Choose Us</h1>
       </div>
 
       <div className="features-container">
-        <div className="feature bg-[#f5f5f5] p-10">
+        <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2 className="text-[#263238]">EXPERIENCE</h2>
           <h3 className="text-center">REAL-WORLD EXPERIENCE FIRST-HAND KNOWLEDGE</h3>
-         <p>With every project engagement, our proficient consultants apply industry-leading practices and knowledge 
-          gained through years of experience in corporate software development. Notably, our leadership team and 
-          consultants possess extensive backgrounds, primarily within the realm of software engineering and 
-          technology.</p>
+         <p>With each project, our skilled consultants utilize cutting-edge methodologies and expertise accumulated over 
+          years of involvement in corporate software development. Notably, both our leadership team and 
+          consultants boast rich backgrounds, particularly within the domain of software engineering 
+          and technology.</p>
         </div>
-        <div className="feature bg-[#f5f5f5] p-10">
+        <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2>FLEXIBILITY</h2>
           <h3  className="text-center">SCALABILITY MEETS FLEXIBILITY</h3>
           <p>Tailored Services: As a privately-owned firm imbued with a robust entrepreneurial ethos, we possess the 
@@ -107,14 +111,14 @@ return(
             unique needs. This affords us the flexibility required to collaborate with clients in innovative and 
             accommodating ways.</p>
         </div>
-        <div className="feature bg-[#f5f5f5] p-10">
+        <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2 className="text-[#263238]">EXCEPTIONAL VALUE</h2>
           <h3 className="text-center">EXCEPTIONAL SERVICES AT AN EXCEPTIONAL VALUE</h3>
           <p>Doing more with less is essential in today's economic landscape. Our company's size, expertise, 
             and strategic approach empower us to deliver exceptional value to clients without compromising on the 
             quality of service.</p>
         </div>
-        <div className="feature bg-[#f5f5f5] p-10">
+        <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2>RESULTS</h2>
           <h3 className="text-center">RESULTS YOUR BUSINESS NEEDS</h3>
          <p>Our proven track record and results-driven approach ensure that we deliver the outcomes essential for 

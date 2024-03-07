@@ -177,9 +177,9 @@ const Services = () => {
     >
       {/* service cards */}
       <div className="mt-20 md:w-3/4 mx-auto text-center">
-        <h1 className="text-3xl lg:text-3xl text-[#263238] font-medium">Our Services</h1>
+        <h1 className="text-3xl lg:text-3xl text-[#263238] font-medium" data-aos="fade-up">Our Services</h1>
         <p className="text-neutralGrey">.</p>
-        <p>
+        <p data-aos="fade-up">
           As a leading software company, we specialize in crafting tailored
           solutions to propel businesses forward. Our multi-competency approach,
           combined with a focus on enterprise transformation and technology
@@ -196,7 +196,7 @@ const Services = () => {
             key={service.id}
             className="px-4 py-8 text-center md:w-[300px]
                     mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all
-                    duration-300 flex items-center justify-center h-full"
+                    duration-300 flex items-center justify-center h-full" data-aos="fade-up"
           >
             <div>
               <div className="bg-[red] mb-4 h-14 w-14 mx-auto rounded-full p-10 flex justify-center items-center">

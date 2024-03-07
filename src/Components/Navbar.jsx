@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import logo from '../assets/gwyat.jpeg';
 import { Link } from "react-router-dom";
+
+
 {/* react icons */}
 import { FaXmark, FaBars } from "react-icons/fa6";
 
@@ -29,6 +31,7 @@ const Navbar = () => {
 
     });
 
+  
     // navbar links
     const navItems =[
        
@@ -41,7 +44,7 @@ const Navbar = () => {
     ]
 
     return(
-       <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
+       <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0" data-aos="fade-right">
         <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300" :""}`}>
             <div className="flex justify-between items-center text-base gap-8">
                 <a href="" className="text-2xl font-semibold flex items-center space-x-3">

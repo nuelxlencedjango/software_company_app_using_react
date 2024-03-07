@@ -138,6 +138,10 @@ p {
   border: none;
 }
 
+[data-aos] {
+  opacity: 0; 
+  transition-property: opacity;
+}
 
 
 

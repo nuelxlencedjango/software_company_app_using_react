@@ -3,10 +3,11 @@ import React from "react";
 const Contact_Us = () => {
   return (
     <div>
-      <h1 className="text-3xl lg:text-3xl text-[#263238] reach-out font-medium text-center mb-2">Reach Out To Us Today!</h1>
+      <h1 className="text-3xl lg:text-3xl text-[#263238] reach-out font-medium text-center mb-2" data-aos="fade-left">Reach Out To Us Today!</h1>
       <div className="mx-4 flex py-10 flex-col md:flex-row justify-center items-start">
         {/* Address Section */}
-        <div className="bg-[#cf2e2e] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-blue-300 cursor-pointer h-72 flex justify-center items-center">
+        <div className="bg-[#cf2e2e] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-blue-300 
+        cursor-pointer h-72 flex justify-center items-center" data-aos="fade-left">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-4">Address</h2>
             <p className="text-white">123 Main Street</p>
@@ -16,7 +17,8 @@ const Contact_Us = () => {
         </div>
 
         {/* Phone Numbers Section */}
-        <div className="bg-[#000] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-green-300 cursor-pointer h-72 flex justify-center items-center">
+        <div className="bg-[#000] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-green-300 
+        cursor-pointer h-72 flex justify-center items-center" data-aos="fade-right">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-4">Phone Numbers</h2>
             <p className="text-white">Main Office: 123-456-7890</p>
@@ -25,7 +27,8 @@ const Contact_Us = () => {
         </div>
 
         {/* Emails and Messages Section[#E5E7EB] */}
-        <div className="bg-yellow-300 py-10 px-3 h-full w-full md:w-1/3 mb-8 mx-2 flex flex-col justify-between contact-form">
+        <div className="bg-yellow-300 py-10 px-3 h-full w-full md:w-1/3 mb-8 mx-2 flex flex-col 
+        justify-between contact-form" data-aos="fade-up">
           <div className="text-center">
             <h2 className="text-2xl text-white font-semibold mb-4">
               Contact Us
