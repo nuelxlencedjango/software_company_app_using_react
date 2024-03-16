@@ -28,7 +28,7 @@ const ConsultancyService = () => {
         </div>
 
         {/* Service 3 */}
-        <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-left">
+        <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-up">
           <h2 className="text-xl text-[red] font-semibold mb-4">Financial Consulting</h2>
           <p className="text-gray-700 text-center">
             Our financial consulting services assist businesses in managing their finances effectively and making informed financial decisions.
@@ -36,7 +36,7 @@ const ConsultancyService = () => {
         </div>
 
         {/* Service 4 */}
-        <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-up">
+        <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-right">
           <h2 className="text-xl text-[red] font-semibold mb-4">Printing Press</h2>
           <p className="text-gray-700 text-center">
             Our printing press consultancy services help businesses optimize their printing processes and improve print quality and efficiency.

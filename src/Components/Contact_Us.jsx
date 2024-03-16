@@ -21,7 +21,7 @@ const Contact_Us = () => {
 
         {/* Phone Numbers Section */}
         <div className="bg-[#000] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-green-300 
-        cursor-pointer h-72 flex justify-center items-center" data-aos="fade-left">
+        cursor-pointer h-72 flex justify-center items-center" data-aos="zoom-in">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-4">Phone Numbers</h2>
             <p className="text-white">Main Office: +1 (214) 862-2086</p>

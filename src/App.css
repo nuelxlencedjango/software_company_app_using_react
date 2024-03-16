@@ -2,6 +2,8 @@
 
 *{
   font-family: 'Poppins', sans-serif;
+  /* margin: 0;
+  padding: 0;*/
 }
 
 header{
@@ -46,7 +48,7 @@ header{
 }
 
 .logo img {
-  width: 40px; /* adjust the size according to your needs */
+  width: 40px; 
   margin-right: 10px;
 }
 
@@ -56,7 +58,7 @@ header{
 }
 
 .active-link {
-  color: blue; /* adjust the color for active link */
+  color: blue;
   font-weight: bold;
 }
 
@@ -99,10 +101,13 @@ header{
 }
 
 @media (min-width: 768px) {
-  .feature {
+  .features-container .feature {
     flex: 1 1 calc(50% - 20px);
   }
 }
+
+
+
 
 .feature:hover {
   transform: translateY(-5px);
@@ -142,9 +147,15 @@ p {
   opacity: 0; 
   transition-property: opacity;
 }
+.text-center{
+  margin: 10px;
+}
 
-
-
+@media (max-width: 767px) {
+  .consult {
+    width: 100% !important;
+  }
+}
 
 
 
