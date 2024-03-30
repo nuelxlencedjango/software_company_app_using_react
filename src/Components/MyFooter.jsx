@@ -37,7 +37,7 @@ const MyFooter = () => {
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  raddotech.@gmail.com
+                contact@raddotech.com
                 </a>
               </li>
             </ul>
@@ -108,7 +108,7 @@ const MyFooter = () => {
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  raddotech.@gmail.com
+                contact@raddotech.com
                 </a>
               </li>
               <li className="mb-4">

@@ -4,7 +4,7 @@ const Contact_Us = () => {
   return (
     <div>
       <h1 className="text-3xl lg:text-3xl text-[#263238] reach-out font-medium text-center mb-2" data-aos="fade-up">Reach Out To Us Today!</h1>
-      <p className="text-text-[#263238] text-center">ContactUs@raddotech.com</p>
+      <p className="text-text-[#263238] text-center">contact@raddotech.com</p>
       <div className="mx-4 flex py-10 flex-col md:flex-row justify-center items-start">
         {/* Address Section */}
         <div className="bg-[#cf2e2e] text-white py-12 w-full md:w-1/3 mb-8 mx-2 hover:bg-blue-300 cursor-pointer 

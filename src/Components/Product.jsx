@@ -2,20 +2,6 @@ import React from "react";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-{/*import web1 from '../assets/web1.gif';
-import mobileApp from '../assets/mobileApp1.avif';
-import ecommerce from '../assets/ecommerce.png';
-import hr from '../assets/hr_management.png';
-import graphic from '../assets/graphic2.avif';
-import hospital from '../assets/hospital3.avif';
-import bank from '../assets/bank1.avif';
-import accounting from '../assets/account2.avif';
-import school from '../assets/school5.png';
-import data from '../assets/data1.avif';*/}
-
-
-
-
 
 const truncateText = (text, limit) => {
     const words = text.split(' ');
