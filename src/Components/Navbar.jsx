@@ -59,7 +59,8 @@ const Navbar = () => {
                <ul className="md:flex space-x-12 hidden">
                 {
                     navItems.map(({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path}
-                   className="block text-base text-gray-900 hover:text-neutralBlue first:font-medium" > {link}</Link>
+                   className="block text-base text-gray-900 hover:text-neutralBlue first:font-semibold" > {link}</Link>
+                   
                    )
                 }
                 </ul>
