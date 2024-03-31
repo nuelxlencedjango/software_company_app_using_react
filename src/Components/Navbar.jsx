@@ -59,15 +59,15 @@ const Navbar = () => {
                <ul className="md:flex space-x-12 hidden">
                 {
                     navItems.map(({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path}
-                   className="block text-base text-gray-900 hover:text-brandPrimary first:font-medium" > {link}</Link>
+                   className="block text-base text-gray-900 hover:text-neutralBlue first:font-medium" > {link}</Link>
                    )
                 }
                 </ul>
 
                 {/* btn for large devices */}
                 <div className="space-x-12 hidden lg:flex items-center">
-                    {/*<a href="/" className="hidden lg:flex items-center text-brandPrimary hover:text-gray-900">Get In Touch</a>*/}
-                    <button className="bg-[red] text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">Contact Us</button>
+                    {/*<a href="/" className="hidden lg:flex items-center text-s hover:text-gray-900">Get In Touch</a>*/}
+                    <button className="bg-neutralBlue text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">Contact Us</button>
                 </div>
                 {/* menu btn for mobile devices */}
                 <div className="md:hidden">
@@ -81,10 +81,10 @@ const Navbar = () => {
                 </div>
             </div>
             {/* nav items for mobile devices */}
-            <div className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
+            <div className={`space-y-4 px-4 mt-16 py-7 bg-neutralBlue ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
                 {
                     navItems.map(({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100}
-                    key={path} className='block cursor-pointer text-base hover:text-brandPrimary first:font-medium'>{link}</Link>)
+                    key={path} className='block cursor-pointer text-base text-[white] hover:text-[#000] first:font-medium'>{link}</Link>)
                 }
 
             </div>

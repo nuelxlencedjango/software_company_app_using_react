@@ -130,13 +130,13 @@ const Products = () =>{
                     <div key={blog.id} className="relative mb-12 cursor-pointer hover:scale-95 translate-all duration-300" data-aos="fade-up">
                         <div className="bg-cover bg-center h-72 rounded-lg overflow-hidden" style={{ backgroundImage: `url(${blog.image})` }}></div>
                         <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12">
-                            <div className="bg-[red] mb-0 h-10 w-10 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full">  
+                            <div className="bg-neutralBlue mb-0 h-10 w-10 mx-auto rounded-t1-3x1 rounded-br-3x1 rounded-full">  
                                 <i>{blog.icon}</i>
                             </div>
                             <h3 className="mb-3 text-neutralGrey font-bold">{blog.title}</h3>
                             <p className="mb-2 text-neutralGrey font-16">{truncateText(blog.text, 10)}</p>
                             <div className="flex items-center justify-center gap-8">
-                                <a href="/" className="font-bold text-[red] hover:text-neutral-700">
+                                <a href="/" className="font-bold text-neutralBlue hover:text-neutral-700">
                                     Read more
                                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 17 11"
                                          fill="none" className="inline-block ml-2">

@@ -201,7 +201,7 @@ const Services = () => {
                     duration-300 flex items-center justify-center h-full" data-aos="fade-up"
           >
             <div>
-              <div className="bg-[red] mb-4 h-14 w-14 mx-auto rounded-full p-10 flex justify-center items-center">
+              <div className="bg-neutralBlue mb-4 h-14 w-14 mx-auto rounded-full p-10 flex justify-center items-center">
                 <i>{service.icon}</i>
               </div>
               <h4 className="text-2x1 font-bold text-neutralDGrey mb-2 px-2">

@@ -13,7 +13,7 @@ const ConsultancyService = () => {
       <div className="grid md:grid-cols-2 lg:md:grid-cols-4 gap-10">
         {/* Service 1 */}
         <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-right">
-          <h2 className="text-xl text-[red] font-semibold mb-4">Strategy Consulting</h2>
+          <h2 className="text-xl text-neutralBlue font-semibold mb-4">Strategy Consulting</h2>
           <p className="text-gray-700 text-center">
             Our strategy consulting services help businesses develop effective strategies to achieve their goals and overcome challenges.
           </p>
@@ -21,7 +21,7 @@ const ConsultancyService = () => {
 
         {/* Service 2 */}
         <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-up">
-          <h2 className="text-xl text-[red] font-semibold mb-4">Technology Consulting</h2>
+          <h2 className="text-xl text-neutralBlue font-semibold mb-4">Technology Consulting</h2>
           <p className="text-gray-700 text-center">
             We provide technology consulting to help organizations leverage the latest technologies and optimize their IT infrastructure.
           </p>
@@ -29,7 +29,7 @@ const ConsultancyService = () => {
 
         {/* Service 3 */}
         <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-up">
-          <h2 className="text-xl text-[red] font-semibold mb-4">Financial Consulting</h2>
+          <h2 className="text-xl text-neutralBlue font-semibold mb-4">Financial Consulting</h2>
           <p className="text-gray-700 text-center">
             Our financial consulting services assist businesses in managing their finances effectively and making informed financial decisions.
           </p>
@@ -37,7 +37,7 @@ const ConsultancyService = () => {
 
         {/* Service 4 */}
         <div className="bg-gray-100 py-8 px-10 rounded-lg shadow-md" data-aos="fade-right">
-          <h2 className="text-xl text-[red] font-semibold mb-4">Printing Press</h2>
+          <h2 className="text-xl text-neutralBlue font-semibold mb-4">Printing Press</h2>
           <p className="text-gray-700 text-center">
             Our printing press consultancy services help businesses optimize their printing processes and improve print quality and efficiency.
           </p>

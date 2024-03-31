@@ -19,7 +19,7 @@ header{
   width: 50px;
   border-radius: 50%;
   height: 50px;
-  box-shadow: 0 0 10px #4169E1;
+  box-shadow: 0 0 10px #4169E1;  
   cursor: pointer;
 }
 .icon{

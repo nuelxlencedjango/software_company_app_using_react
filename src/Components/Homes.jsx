@@ -36,7 +36,7 @@ return(
                 technology to drive innovation. Explore our range of products and services tailored to meet your 
                 evolving business needs. Let's innovate together and stay ahead in the digital age.
               </p>
-              <button className="btn-primary">Contact Us Today!</button>
+              <button className="btn-primary bg-neutralBlue">Contact Us Today!</button>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ return(
               how our expertise and innovation can propel your organization towards success. 
               Transform your business with Raddotech.
               </p>
-              <button className="btn-primary">Reach out to us now!</button>
+              <button className="btn-primary bg-neutralBlue">Reach out to us now!</button>
             </div>
           </div>
           <div className="py-12 flex flex-col md:flex-row items-center justify-between gap-12">
@@ -78,7 +78,7 @@ return(
                 together. Enhance teamwork, boost productivity, and unlock new possibilities 
                 with our suite of collaboration solutions.
               </p>
-              <button className="btn-primary">We await your call today!</button>
+              <button className="btn-primary bg-neutralBlue">We await your call today!</button>
             </div>
           </div>
              
@@ -93,7 +93,7 @@ return(
       <div className="features-container">
         <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2 className="text-[#263238]">EXPERIENCE</h2>
-          <h3 className="text-center">REAL-WORLD EXPERIENCE FIRST-HAND KNOWLEDGE</h3>
+          <h3 className="text-center text-neutralBlue">REAL-WORLD EXPERIENCE FIRST-HAND KNOWLEDGE</h3>
          <p>With each project, our skilled consultants utilize cutting-edge methodologies and expertise accumulated over 
           years of involvement in corporate software development. Notably, both our leadership team and 
           consultants boast rich backgrounds, particularly within the domain of software engineering 
@@ -101,7 +101,7 @@ return(
         </div>
         <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2>FLEXIBILITY</h2>
-          <h3  className="text-center">SCALABILITY MEETS FLEXIBILITY</h3>
+          <h3  className="text-center text-neutralBlue">SCALABILITY MEETS FLEXIBILITY</h3>
 
           <p>Tailored Services: As a privately-owned firm imbued with a robust entrepreneurial ethos, we possess the 
             capacity to tackle intricate, enterprise-scale projects while remaining agile enough to adapt to your 
@@ -110,14 +110,14 @@ return(
         </div>
         <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2 className="text-[#263238]">EXCEPTIONAL VALUE</h2>
-          <h3 className="text-center">EXCEPTIONAL SERVICES AT AN EXCEPTIONAL VALUE</h3>
+          <h3 className="text-center text-neutralBlue">EXCEPTIONAL SERVICES AT AN EXCEPTIONAL VALUE</h3>
           <p>Doing more with less is essential in today's economic landscape. Our company's size, expertise, 
             and strategic approach empower us to deliver exceptional value to clients without compromising on the 
             quality of service.</p>
         </div>
         <div className="feature bg-[#f5f5f5] p-10" data-aos="fade-up">
           <h2>RESULTS</h2>
-          <h3 className="text-center">RESULTS YOUR BUSINESS NEEDS</h3>
+          <h3 className="text-center text-neutralBlue">RESULTS YOUR BUSINESS NEEDS</h3>
          <p>Our proven track record and results-driven approach ensure that we deliver the outcomes essential for 
           your business. We address your most critical technological and business challenges by merging our 
           established project management proficiency with expertise and a steadfast work ethic.</p>
