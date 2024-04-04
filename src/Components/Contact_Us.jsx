@@ -69,7 +69,7 @@ const Contact_Us = () => {
                 </div>
               </div>
               <div className="text-center mb-4">
-                <button className="bg-[red] hover:bg-[#000] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                <button className="bg-neutralBlue hover:bg-[#000] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                   Send Message
                 </button>
               </div>

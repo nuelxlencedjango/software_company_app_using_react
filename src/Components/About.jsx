@@ -33,7 +33,7 @@ const About =() => {
               that drive growth, enhance efficiency, and streamline operations. We strive to exceed expectations and
               deliver excellence in every project we undertake.
             </p>
-            <button className="btn-primary">Learn More</button>
+            <button className="btn-primary bg-neutralBlue">Learn More</button>
           </div>
         </div>
       </div>
