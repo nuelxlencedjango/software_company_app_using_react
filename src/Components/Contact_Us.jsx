@@ -11,7 +11,7 @@ const Contact_Us = () => {
         h-72 flex justify-center items-center" data-aos="fade-right">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-4">Address</h2>
-            <p className="text-white">1920 W Villa Maria Road</p>
+            <p className="text-white">suite #101 W Villa Maria Road</p>
             <p className="text-white">Bryan, Texas</p>
             <p className="text-white">TX 77807</p>
             <p className="text-white">USA</p>
@@ -24,8 +24,8 @@ const Contact_Us = () => {
         cursor-pointer h-72 flex justify-center items-center" data-aos="zoom-in">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-4">Phone Numbers</h2>
-            <p className="text-white">Main Office: +1 (214) 862-2086</p>
-            <p className="text-white">Support: 987-654-32109999999999</p>
+            <p className="text-white">Main Office: +1 979-204-3600</p>
+            <p className="text-white">Support: +1 979-204-3600</p>
           </div>
         </div>
 
