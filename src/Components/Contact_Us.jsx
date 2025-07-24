@@ -11,7 +11,7 @@ const Contact_Us = () => {
         h-72 flex justify-center items-center" data-aos="fade-right">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-4">Address</h2>
-            <p className="text-white">suite #101 W Villa Maria Road</p>
+            <p className="text-white">1920 W Villa Maria Road, Suite 101</p>
             <p className="text-white">Bryan, Texas</p>
             <p className="text-white">TX 77807</p>
             <p className="text-white">USA</p>
