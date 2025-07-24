@@ -22,7 +22,7 @@ const MyFooter = () => {
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  920 W Villa Maria Rd
+                  suite #101 W Villa Maria Rd
                 </a>
               </li>
               <li className="mb-4">
@@ -32,7 +32,7 @@ const MyFooter = () => {
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  +1 (214) 862-2086
+                  +1 979-204-3600
                 </a>
               </li>
               <li className="mb-4">
